@@ -122,7 +122,7 @@ def train():
     #RELU activation layer4
     model.add(Activation('relu'))
 
-    #Add Convolution layer4 with filter_size=5x5 and feature_map=48
+    #Add Convolution layer4 with filter_size=3x3 and feature_map=48
     model.add(Convolution2D(48,3,3,border_mode='valid'))
 
     #RELU activation layer4
